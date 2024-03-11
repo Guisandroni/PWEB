@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API e Integrações</title>
+
+    <link rel="stylesheet" href="api.css">
+</head>
+
+<body>
+    <main>
+
+        <nav>
+            <h1>APIs e Integrações</h1>
+            <ul class="sidebar">
+
+                <li><a href="#oqueeapi">O que é uma API?</a>
+                </li>
+
+                <li><a href="#integracao">Integração de APIs</a>
+                </li>
+                <li><a href="#conceitos">Conceitos</a></li>
+                <li><a href="#tiposApis">Tipos de APIs</a></li>
+                <li> <a href="ferramentas">Ferramentas</a></li>
+                <li><a href="exemplos">Exemplos de APIs</a></li>
+                <li><a href="conclusao">Conclusão</a></li>
+            </ul>
+
+
+        </nav>
+
+        <section>
+            <h2>Introdução:</h2>
+            <article>
+                As APIs (Interfaces de Programação de Aplicações) desempenham um papel fundamental
+                na interconexão de sistemas e na criação de aplicações mais robustas e versáteis. Este
+                documento explora os conceitos básicos de APIs, os diferentes tipos existentes,
+                ferramentas populares para integração e fornece exemplos
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2 id="oqueeapi">O que é uma API ?</h2>
+
+                <p>
+                    APIs são mecanismos que permitem que dois componentes de software se comuniquem
+                    usando um conjunto de definições e protocolos. Por exemplo a API de comunicação entre o
+                    back-end e o front-end do site do siga, ela está ali para poder repassar as informações a
+                    respeito do aluno.
+                </p>
+
+                <p>
+                    A sigla API significa Application Programing Interface (Interface de Programação de
+                    Aplicação). No contexto das APIs, a palavra Aplicação refere-se a qualquer software com
+                    uma função distintiva. A interface pode ser pensada como um contrato de serviço entre duas
+                    aplicações. Esse contrato define como as duas se comunicam usando solicitações e
+                    respostas. A documentação de suas respectivas APIs contem informações sobre como os
+                    desenvolvedores devem estruturar essas solicitações e respostas.
+                </p>
+            </article>
+
+            <article>
+
+                <h2 id="endpoint"> End-Points</h2>
+
+                <p>Endpoint são pontos de extremidade de uma API, representando urls específicos para os
+                    quais as solicitações podem ser enviadas. Cada endpoint realiza uma função específica.
+                </p>
+
+            </article>
+        </section>
+
+
+        <section>
+
+            <h2 id="integracao"> Como é Feito uma Integração de API ?</h2>
+
+            <article>
+                A integração de API segue alguns passos importantes desde sua identificação quanto a
+                criação e envio de requisição, aqui estão alguns passos de como pode ser feito a
+                integração:
+                Identificar a API:
+                Determinar qual API fornece os dados ou funcionalidades que necessita.
+                Obter acesso a API:
+                Crie uma conta no site do provedor da API.
+                Obtenha as chaves de acesso.
+                Crie uma requisição:
+                Defina a url da API que você deseja acessar.
+                Escolha o método de requisição HTTP adequado, como: Get, Post, Put, delete etc.
+                Defina os parâmetros da requisição, como headers, body e query parameters.
+                Envie a requisição:
+                Utilize uma biblioteca de programação ou ferramenta específica para enviar a requisição a
+                API.
+                Certifique-se de que a requisição está formatada corretamente como a documentação.
+                Trate os erros de requisição.
+                Tratar a respostas:
+                Recebe a resposta da API e interprete os dados de acordo com o formato.
+                Armazene os dados recebidos em formato adequado para a aplicação.
+                Trate os erros de resposta e o código de status HTTP.
+
+            </article>
+        </section>
+
+        <section>
+
+            <h2 id="conceitos"> Conceitos:</h2>
+
+            <article>
+                As APIs possuem alguns conceitos fundamentais como:
+                RESTful: Arquitetura de API que segue um conjunto de princípios para facilitar o
+                desenvolvimente e integração;
+                JSON: Formato de dados leve e fácil de ler.
+                OAuth: Protocolo de autorização que permite que aplicativos acessem recursos protegidos
+                em nome de usuário.
+                Swagger: Ferramenta para documentar APIs e gerar interfaces de interação.
+            </article>
+        </section>
+
+
+        <section>
+            <h2 id="tiposApis"> Tipos de APIs:</h2>
+
+            <article>
+
+                RESTful APIs:
+                REST (Representational State Transfer) é uma abordagem arquitetônica comum para a
+                criação de APIs. As RESTful APIs são baseadas nos princípios do REST, utilizando métodos
+                HTTP para operações (GET, POST, PUT, DELETE).
+                GraphQL:
+                GraphQL permite que clientes solicitem apenas os dados de que precisam, evitando o
+                excesso de dados transferidos. Oferece uma abordagem mais flexível em comparação com
+                as APIs tradicionais.
+                SOAP (Simple Object Access Protocol):
+                SOAP é um protocolo de comunicação baseado em XML. Apesar de ser menos comum
+                atualmente, ainda é utilizado em alguns contextos.
+                WebSockets: APIs que permite comunicação bidirecional em tempo real entre o cliente e o
+                servidor.
+            </article>
+        </section>
+
+        <section>
+            <h2 id="ferramentas"> Ferramentas para o uso de APIs:</h2>
+
+            <article>
+
+                Postman: Ferramenta popular para testar e enviar requisições para APIs.
+                Insomnia: Ferramenta similar ao Postman com recursos adicionais para gerenciamento e
+                APIs.
+                Curl: Utilitario de linha de comando para enviar requisições para APIs.
+                SDKs: Bibliotecas de software que facilitam o desenvolvimento de aplicações que se
+                integram a APIs especificas
+            </article>
+        </section>
+
+
+        <section>
+
+            <h2 id="exemplos"> Exemplos de APIs:</h2>
+
+            <article>Twitter API:
+                Utilizando a API do Twitter, é possível integrar funcionalidades da plataforma em uma
+                aplicação, como postagem de tweets ou obtenção de dados de usuários.
+                Google Maps API:
+                A API do Google Maps possibilita a incorporação de mapas interativos em sites ou
+                aplicativos, agregando funcionalidades de localização.
+                Facebook Graph API: API para acessar dados do Facebook, como posts, perfis e evento.
+                Spotify API: API para acessar dados Spotify, como músicas, artistas e playlists.
+            </article>
+        </section>
+
+        <section>
+            <h2 id="conclusao"> Conclusão</h2>
+            <article>
+                Integrar APIs é essencial para a construção de aplicações modernas e interconectadas.
+                Este documento fornece uma visão geral dos conceitos fundamentais, tipos de APIs,
+                ferramentas comuns e exemplos práticos, destacando a importância desse processo na era
+                da interconectividade digital.
+            </article>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Guilherme. Todos os direitos reservados</p>
+        </footer>
+    </main>
+</body>
+
+</html>

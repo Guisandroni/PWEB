@@ -1,0 +1,39 @@
+nav > ul > li {
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #f1f1f1;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 8rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+
+main {
+  padding: 4px;
+  margin: 4px;
+}
