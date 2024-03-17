@@ -1,0 +1,247 @@
+body {
+  font-family: "Segoe UI", Tahoma;
+  background-color: #f1f1f1;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  margin: 10px;
+}
+.card {
+  text-align: center;
+  border-radius: 8px;
+
+  margin: 10px;
+}
+.contleft > .card,
+.contright > .card {
+  display: flex;
+  text-align: end;
+  margin: 10px;
+  padding: 0;
+}
+
+.contleft > .card > img,
+.contright > .card > img {
+  width: 30%;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+}
+
+.card > button {
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c2c2c;
+  padding: 2rem;
+  color: #f1f1f1;
+}
+
+.search {
+  height: 2rem;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #010101;
+  text-align: center;
+  margin: 10px;
+  color: #f1f1f1;
+}
+
+.links {
+  display: flex;
+  background-color: #fd6f23;
+  padding: 0.5rem;
+  justify-content: space-around;
+}
+
+.links > p {
+  border-radius: 8px;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.links > p > a > h4 {
+  color: #f1f1f1;
+}
+
+.cardalto {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.container01 {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.containercards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contmid {
+  gap: 2rem;
+}
+
+.contleft,
+.contright {
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-style: none;
+  background-color: #fd6f23;
+  color: #f1f1f1;
+}
+
+button:hover {
+  background-color: rgb(150, 101, 36);
+}
+
+.contmidfinal {
+  gap: 4rem;
+}
+
+.cardalto > img {
+  width: 100%;
+  height: 50%;
+}
+
+.cardalto {
+  text-align: start;
+}
+
+.cardalto > p,
+h2,
+button {
+  margin: 10px;
+}
+
+.card > img {
+  width: 30%;
+  height: 100%;
+}
+
+.containercards > .card {
+  display: flex;
+  padding: 0;
+}
+
+.contultimo > .card > img {
+  width: 100%;
+}
+
+.contultimo > .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.conttworight > .card {
+  display: flex;
+}
+
+.conttworight > .card > .texto {
+  text-align: start;
+  margin: 10px;
+}
+
+.conttworight > .card > img {
+  width: 25%;
+}
+
+.cardfinalleft > img {
+  width: 100%;
+}
+
+.cardfinalleft {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.cardfinalleft > .texto {
+  text-align: start;
+  margin: 10px;
+}
+
+.space {
+  height: 1px;
+  width: 100%;
+  background-color: #fd6f23;
+}
+
+.rodape {
+  margin: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 6rem;
+  margin-top: 1rem;
+}
+
+.marca {
+  display: flex;
+  flex-direction: column;
+}
+
+.contleft > .card > .texto,
+.contright > .card > .texto {
+  padding-right: 20px;
+}
+
+p {
+  color: #fd6f23;
+  font-weight: bold;
+}
+
+.contultimo > .card > .texto {
+  padding: 10px;
+  margin: 10px;
+}
+
+.card,
+.cardalto {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
