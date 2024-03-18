@@ -1,0 +1,78 @@
+h2{
+    color: #f1f1f1;
+}
+
+div {
+    height: 500px;
+    width: 500px;
+    min-width: 420px;
+    background-color: black;
+  }
+  @media screen and (min-width: 1920px ) {
+    div {
+      width: 1920px;
+      background-color: rgb(167, 205, 17);
+    }
+    h2:before{
+        content: "VERDE";
+    }
+  }
+  @media screen and (max-width: 1920px ) {
+    div {
+      width: 1920px;
+      background-color: rgb(167, 205, 17);
+    }
+    h2:after{
+        content: "VERDE";
+    }
+  }
+  @media screen and (max-width: 1366px) {
+    div {
+      width: 1366px;
+      background-color: rgb(40, 40, 209);
+    }
+    h2:after{
+        content: "AZUL";
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    div {
+      width: 1080px;
+      background-color: rgb(197, 16, 28);
+    }
+    h2:after{
+        content: "VERMELHO";
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    div {
+      width: 1024px;
+      background-color: rgb(224, 14, 179);
+    }
+    h2:after{
+        content: "ROSA";
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    div {
+      width: 768px;
+      background-color: rgb(219, 141, 24);
+    }
+    h2:after{
+        content: "LARANJA";
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    div {
+      width: 420px;
+      background-color: rgb(54, 69, 53);
+    }
+    h2:after{
+        content: "CINZA";
+    }
+  }
+  
