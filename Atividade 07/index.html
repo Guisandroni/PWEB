@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 7 - Jogo</title>
+</head>
+
+<body>
+
+
+  <script>
+
+    function jogar() {
+      const opcoes = ['pedra', 'papel', 'tesoura'];
+      const escolhaUsuario = prompt("Escolha pedra, papel ou tesoura:").toLowerCase();
+      const escolhaComputador = opcoes[Math.floor(Math.random() * 3)];
+
+      alert(`O computador escolheu: ${escolhaComputador}`);
+
+      if (escolhaUsuario === escolhaComputador) {
+        alert("Empate!");
+      } else if (
+        (escolhaUsuario === 'pedra' && escolhaComputador === 'tesoura') ||
+        (escolhaUsuario === 'tesoura' && escolhaComputador === 'papel') ||
+        (escolhaUsuario === 'papel' && escolhaComputador === 'pedra')
+      ) {
+        alert("Você ganhou!");
+      } else {
+        alert("Você perdeu!");
+      }
+    }
+
+    jogar();
+
+  </script>
+</body>
+
+</html>
