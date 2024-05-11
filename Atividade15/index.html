@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15</title>
+    <link rel="stylesheet" href="atv15.css">
+</head>
+
+<body>
+    <form action="teste" method="POST" name="formulario1" id="formulario1" onsubmit="return validarDados();">
+        <div id="principal" width=200 height=200>
+            <div class="input-wrapper">
+                <label for="nome">Nome:</label><br>
+                <input name="idNome" type="text" id="idNome" size="52" maxlength="150">
+            </div>
+            <br><br>
+            <div class="input-wrapper">
+                <label for="email">E-mail:</label><br>
+                <input name="idEmail" type="email" id="idEmail" size="52" maxlength="150">
+            </div> 
+            <br><br> 
+            <div class="input-wrapper">
+                <label for="comentario">Comentário:</label><br>
+                <textarea name="idComentario" cols="50" rows="8" id="idComentario" value="" input></textarea>
+            </div>
+            <br><br>
+            <label for="pesquisa">Pesquisa:</label><br><br>
+            <span id="pesquisa">Primeira vez nesta página?</span>
+            <br><br>
+            <input type="radio" name="pesquisa" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="pesquisa" id="nao">
+            <label for="nao">Não</label><br><br>
+            <input name="enviar" type="submit" form="formulario1" value="Enviar">
+            <input name="limpar" type="reset" form="formulario1" value="Limpar">
+        </div>
+    </form>
+
+    <script src="atv15.js"></script>
+</body>
+</html>
