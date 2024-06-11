@@ -1,0 +1,119 @@
+
+#logo {
+    padding: 10px;
+    font-weight: 500;
+    font-size: x-large;
+     font-weight: bold;
+}
+
+
+.sidebar-container {
+    width: 15%;
+    height: 100vh;
+    border: 2px solid rgba(221, 215, 215, 0.475);
+   
+
+}
+
+.sidebar-container a {
+    color: #050505;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sidebar-container a:hover {
+    border: 0;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    box-shadow: 0 2px 5px 0 rgba(241, 241, 241, 0.1);
+    width: 80%;
+    margin-left: 10px;
+    
+}
+
+.bi {
+    color: #495057;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.menu {
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    border-bottom: 2px solid #dfdddd;
+    padding-bottom: 20px;
+}
+
+#btn-deletar, #btn-editar {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: medium; 
+}
+
+#btn-deletar:hover, #btn-editar:hover {
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    padding: 5px; 
+    font-size: medium;
+    
+    margin-left: 15px;        
+}
+
+#btn-deletar i, 
+#btn-deletar span {
+    vertical-align: middle; /* Alinha verticalmente o ícone e o texto */
+}
+
+#btn-deletar:hover i, 
+#btn-deletar:hover span {
+    margin-right: 5px; /* Ajusta o espaçamento entre o ícone e o texto */
+}
+
+
+
+/*-Legendas*/
+#legenda h2 {
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.color-list {
+    font-family: 'Inter', sans-serif;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.color-list li::marker {
+    font-size: 40px;
+}
+
+.color-list li:nth-child(1)::marker {
+    color: #7BC6D7;
+}
+
+.color-list li:nth-child(2)::marker {
+    color: #FECA15;
+}
+
+.color-list li:nth-child(3)::marker {
+    color: #ff3a3aba;
+}
+
+.color-list li:nth-child(4)::marker {
+    color: #64F24D;
+}
+.color-list li:nth-child(5)::marker {
+    color: #EF4DF2;
+}

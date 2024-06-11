@@ -1,0 +1,131 @@
+.content-editar {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.container-editar {
+    border-radius: 15px;
+    background-color: #e5e5e576;
+    padding: 1px;
+    margin: 10px;
+    height: 200px;
+    max-height: 80vh;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.col {
+    margin: 10px;
+}
+
+#hoje {
+    text-align: start;
+    width: 30%;
+    order: -1;
+    height: 20px;
+    border-bottom: 2px solid #145DE9;
+}
+
+#a-fazer {
+    text-align: start;
+    width: 30%;
+    order: -1;
+    height: 20px;
+    border-bottom: 2px solid #A330A6;
+}
+
+#feito {
+    text-align: start;
+    width: 30%;
+    order: -1;
+    height: 20px;
+    border-bottom: 2px solid #EDD245;
+}
+
+
+
+#colunas {
+    display: flex;
+    height: 170px;
+}
+
+.task-container {
+    display: flex;
+    margin: 10px;
+}
+
+.task-card {
+    flex: 0 0 auto;
+    position: relative;
+    width: 200px;
+    margin: 5px;
+    height: 7rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fcfcfcbc;
+    border: 2px solid; 
+}
+
+.task-border-pessoal {
+    border-color: #ff3a3aba;
+}
+
+.task-border-profissional {
+    border-color: #867cf8;
+}
+
+.task-border-treinos {
+    border-color: #FECA15;
+}
+
+.task-border-academica {
+    border-color: #7BC6D7;
+}
+
+.task-level {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.task-level#media {
+    background-color: #dee7fcd4;
+    color: #20223d;
+}
+
+.task-level-alta {
+    background-color: #fc849096;
+    color: #552d27;
+}
+
+.task-level-baixa {
+    background-color: #FBE594;
+    color: #D58D49;
+}
+
+.task-header {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.task-date {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #777;
+    font-size: small;
+}
+
+.task-body {
+    color: #495057;
+}
+
+.task-card.editing {
+    border-style: dashed;
+}
