@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "consign": "^0.1.6",
+    "ejs": "^2.7.4",
+    "express": "^4.19.2",
+    "msnodesqlv8": "^4.2.1",
+    "mssql": "^10.0.2",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "exercicios",
+  "version": "1.0.0",
+  "main": "callback1.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Livia Camargo",
+  "license": "ISC",
+  "description": "Site da Fatec Sorocaba",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
